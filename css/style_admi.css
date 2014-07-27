@@ -1,0 +1,85 @@
+/*
+estilos de la biblia contendo admi 
+26/02/2014
+*/
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f9f9f9;
+    font-family: arial;
+    font-size: 18px;
+}
+
+#contec
+{
+    margin: auto;
+    margin-top: 20px;
+    height: 500px;
+    width: 960px;
+    padding-top:  10px;
+-webkit-box-shadow: -1px 22px 39px 1px rgba(71,65,71,0.47);
+-moz-box-shadow: -1px 22px 39px 1px rgba(71,65,71,0.47);
+box-shadow: -1px 22px 39px 1px rgba(71,65,71,0.47);
+border-radius: 8px 8px 8px 8px;
+-moz-border-radius: 8px 8px 8px 8px;
+-webkit-border-radius: 8px 8px 8px 8px;
+border: 0px solid #000000;
+    
+}
+#dios
+{
+    margin: auto;
+    width: 960px;
+    margin-top: 30px;
+    color: #ccc;
+    font-size: 30px;
+    font-family: arial;
+    text-align: center;
+    
+}
+#lobro_regis
+{
+    padding: 5px;
+    width: 500px;
+    height: 350px;
+    margin: auto;    
+    border: 2px solid #ccc;
+}
+#lobro_regis samp
+{
+    font-family: arial;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+
+#menu_admi
+{
+    position: fixed;
+    padding: 20px;
+}
+#mos_nom_libro{
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+    display: block;
+    position: relative;
+    top: 72px;
+    left: -111px;
+    width: 300px;
+    margin: 0 auto;
+}
+#mos_nom_capi{
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+    display: block;
+    position: relative;
+    top: 100px;
+    left: -111px;
+    width: 300px;
+    margin: 0 auto;
+}

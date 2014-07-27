@@ -1,0 +1,30 @@
+<html>
+<head>
+    <style>
+        input{
+            -webkit-text-security:square; 
+            text-security:square;
+        }       
+    </style>
+
+    <script>
+        window.onload = function(){
+            init(); 
+        }
+        function init(){
+            var x = document.getElementsByTagName("input")[0];
+            var style = window.getComputedStyle(x);
+            console.log(style);
+            if(style.webkitTextSecurity){
+                //do nothing
+            }else{
+                x.setAttribute("type","password");
+            }
+        }           
+    </script>
+</head>
+<body>
+    <div id="di">
+        <input/>        
+    </div>
+</body>
